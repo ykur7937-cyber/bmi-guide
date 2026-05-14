@@ -137,8 +137,9 @@ export default function App() {
         <h2>What BMI cannot tell you</h2>
         <p style={styles.text}>
           BMI does not directly measure body fat, muscle mass, bone density,
-          fitness level, or fat distribution. For example, athletes may have a
-          higher BMI because of greater muscle mass.
+          fitness level, or fat distribution. Adult BMI categories are the same for
+          males and females, but BMI cannot show differences in body composition.
+          For example, athletes may have a higher BMI because of greater muscle mass.
         </p>
 
         <h2 id="disclaimer">Medical disclaimer</h2>
