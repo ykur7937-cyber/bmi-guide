@@ -50,6 +50,20 @@ export default function App() {
         </p>
       </div>
 
+      <div style={styles.infoCard}>
+        <h2>How to use this calculator</h2>
+        <p style={styles.text}>
+          Enter your weight in kilograms and your height in centimeters, then
+          select Calculate BMI. The result will show your Body Mass Index and
+          the standard adult BMI category.
+        </p>
+        <p style={styles.text}>
+          This calculator is intended for adults aged 20 years and older. For
+          children and teens, BMI should be interpreted using age- and
+          sex-specific BMI-for-age percentiles.
+        </p>
+      </div>
+
       <div id="calculator" style={styles.card}>
         <h1 style={styles.title}>Adult BMI Calculator</h1>
 
@@ -207,7 +221,7 @@ export default function App() {
           Email: <a href="mailto:ykur7937@googlemail.com">ykur7937@googlemail.com</a>
         </p>
       </div>
-      
+
       <div id="disclaimer" style={styles.infoCard}>
         <h2>Medical disclaimer</h2>
         <p style={styles.text}>
