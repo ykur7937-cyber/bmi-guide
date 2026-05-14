@@ -181,7 +181,30 @@ export default function App() {
           higher BMI because of greater muscle mass, while two people with the
           same BMI may have different amounts of body fat.
         </p>
+      </div>
 
+      <div id="children-bmi" style={styles.infoCard}>
+        <h2>Why children and teens need BMI percentiles</h2>
+        <p style={styles.text}>
+          Adult BMI categories are designed for people aged 20 years and older.
+          Children and teens are still growing, so their BMI needs to be
+          interpreted differently.
+        </p>
+
+        <p style={styles.text}>
+          For children and teens aged 2–19 years, BMI is usually compared with
+          age- and sex-specific BMI-for-age percentiles. This helps account for
+          normal changes in growth and development.
+        </p>
+
+        <p style={styles.text}>
+          Because of this, this calculator should be used for adults. Parents or
+          guardians who have concerns about a child’s growth or weight should
+          speak with a qualified healthcare professional.
+        </p>
+      <div>
+
+      </div>
         <p style={styles.text}>
           BMI is useful as a simple screening tool, but it should not be used as
           a diagnosis by itself. For personal health decisions, BMI should be
