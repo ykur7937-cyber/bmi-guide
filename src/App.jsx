@@ -33,9 +33,9 @@ export default function App() {
           <a style={styles.navLink} href="#calculator">Calculator</a>
           <a style={styles.navLink} href="#categories">Categories</a>
           <a style={styles.navLink} href="#about-bmi">About BMI</a>
+          <a style={styles.navLink} href="#about">About</a>
           <a style={styles.navLink} href="#privacy">Privacy</a>
           <a style={styles.navLink} href="#disclaimer">Disclaimer</a>
-          <a style={styles.navLink} href="#about">About</a>
         </div>
       </div>
 
@@ -143,24 +143,18 @@ export default function App() {
           males and females, but BMI cannot show differences in body composition.
           For example, athletes may have a higher BMI because of greater muscle mass.
         </p>
-
-        <h2 id="disclaimer">Medical disclaimer</h2>
-        <p style={styles.text}>
-          This calculator is for educational purposes only. BMI is a screening
-          tool and not a diagnosis. Please speak with a qualified healthcare
-          professional for personal medical advice.
-        </p>
       </div>
-        <div id="about" style={styles.infoCard}>
-         <h2>About this site</h2>
-         <p style={styles.text}>
+            <div id="about" style={styles.infoCard}>
+        <h2>About this site</h2>
+        <p style={styles.text}>
           BMI Guide is a simple educational website created to help adults
           calculate Body Mass Index and understand what BMI can and cannot tell
           them. The information is designed for general education only and
           should not replace advice from a qualified healthcare professional.
         </p>
       </div>
-             <div id="privacy" style={styles.infoCard}>
+
+      <div id="privacy" style={styles.infoCard}>
         <h2>Privacy Policy</h2>
         <p style={styles.text}>
           This website is designed to provide a simple BMI calculator and
@@ -182,6 +176,16 @@ export default function App() {
           should review this section periodically for changes.
         </p>
       </div>
+
+      <div id="disclaimer" style={styles.infoCard}>
+        <h2>Medical disclaimer</h2>
+        <p style={styles.text}>
+          This calculator is for educational purposes only. BMI is a screening
+          tool and not a diagnosis. Please speak with a qualified healthcare
+          professional for personal medical advice.
+        </p>
+      </div> 
+
       <p style={styles.footer}>
         Educational information only. This website does not provide medical
         advice.
