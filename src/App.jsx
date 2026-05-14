@@ -35,6 +35,7 @@ export default function App() {
           <a style={styles.navLink} href="#about-bmi">About BMI</a>
           <a style={styles.navLink} href="#about">About</a>
           <a style={styles.navLink} href="#privacy">Privacy</a>
+          <a style={styles.navLink} href="#affiliate">Affiliate</a>
           <a style={styles.navLink} href="#disclaimer">Disclaimer</a>
         </div>
       </div>
@@ -174,6 +175,23 @@ export default function App() {
         <p style={styles.text}>
           This privacy policy may be updated as the website develops. Visitors
           should review this section periodically for changes.
+        </p>
+      </div>
+
+      <div id="affiliate" style={styles.infoCard}>
+        <h2>Affiliate Disclosure</h2>
+        <p style={styles.text}>
+          This website may later include affiliate links to products or services
+          related to health, fitness, wellness, or educational resources. If you
+          click an affiliate link and make a purchase, this website may earn a
+          small commission at no additional cost to you.
+        </p>
+
+        <p style={styles.text}>
+          Affiliate links do not influence the educational information provided
+          on this website. Any product or service mentioned should be considered
+          carefully, and visitors should make their own decisions based on their
+          personal needs and circumstances.
         </p>
       </div>
 
