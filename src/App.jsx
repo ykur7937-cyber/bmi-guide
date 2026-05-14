@@ -138,9 +138,12 @@ export default function App() {
 
         <p style={styles.source}>
           Source: Adult BMI categories are based on CDC and NIH/NHLBI guidance.
-          BMI is a screening tool, not a diagnostic measure. For children and
-          teens aged 2–19 years, BMI should be interpreted using age- and
-          sex-specific BMI-for-age percentiles.
+          For adults aged 20 years and older, standard BMI categories are the
+          same for males and females. BMI is a screening tool, not a diagnostic
+          measure, and it does not directly measure body fat, muscle mass, bone
+          density, or fat distribution. For children and teens aged 2–19 years,
+          BMI should be interpreted using age- and sex-specific BMI-for-age
+          percentiles.
         </p>
       </div>
 
@@ -155,12 +158,38 @@ export default function App() {
         <h2>What BMI cannot tell you</h2>
         <p style={styles.text}>
           BMI does not directly measure body fat, muscle mass, bone density,
-          fitness level, or fat distribution. Adult BMI categories are the same for
-          males and females, but BMI cannot show differences in body composition.
-          For example, athletes may have a higher BMI because of greater muscle mass.
+          fitness level, or fat distribution. Adult BMI categories are the same
+          for males and females, but BMI cannot show differences in body
+          composition. For example, athletes may have a higher BMI because of
+          greater muscle mass.
         </p>
       </div>
-            <div id="about" style={styles.infoCard}>
+
+      <div id="bmi-vs-body-fat" style={styles.infoCard}>
+        <h2>BMI vs Body Fat Percentage</h2>
+        <p style={styles.text}>
+          BMI and body fat percentage are related, but they are not the same.
+          BMI uses only height and weight, so it is quick and easy to calculate.
+          Body fat percentage estimates how much of your body weight comes from
+          fat.
+        </p>
+
+        <p style={styles.text}>
+          Because BMI does not directly measure body fat, it may not fully
+          describe body composition. For example, a muscular athlete may have a
+          higher BMI because of greater muscle mass, while two people with the
+          same BMI may have different amounts of body fat.
+        </p>
+
+        <p style={styles.text}>
+          BMI is useful as a simple screening tool, but it should not be used as
+          a diagnosis by itself. For personal health decisions, BMI should be
+          considered together with other information and advice from a qualified
+          healthcare professional.
+        </p>
+      </div>
+
+      <div id="about" style={styles.infoCard}>
         <h2>About this site</h2>
         <p style={styles.text}>
           BMI Guide is a simple educational website created to help adults
@@ -210,15 +239,18 @@ export default function App() {
         </p>
       </div>
 
-        <div id="contact" style={styles.infoCard}>
-         <h2>Contact</h2>
-         <p style={styles.text}>
+      <div id="contact" style={styles.infoCard}>
+        <h2>Contact</h2>
+        <p style={styles.text}>
           If you have questions, feedback, or notice an error on this website,
           you can contact the site owner by email.
-         </p>
+        </p>
 
         <p style={styles.text}>
-          Email: <a href="mailto:ykur7937@googlemail.com">ykur7937@googlemail.com</a>
+          Email:{" "}
+          <a href="mailto:ykur7937@googlemail.com">
+            ykur7937@googlemail.com
+          </a>
         </p>
       </div>
 
@@ -229,7 +261,7 @@ export default function App() {
           tool and not a diagnosis. Please speak with a qualified healthcare
           professional for personal medical advice.
         </p>
-      </div> 
+      </div>
 
       <p style={styles.footer}>
         Educational information only. This website does not provide medical
@@ -255,11 +287,14 @@ const styles = {
     justifyContent: "space-between",
     alignItems: "center",
     borderBottom: "1px solid #e8e4dc",
+    gap: "16px",
+    flexWrap: "wrap",
   },
   navLinks: {
     display: "flex",
     gap: "16px",
     fontSize: "14px",
+    flexWrap: "wrap",
   },
   navLink: {
     color: "#555",
