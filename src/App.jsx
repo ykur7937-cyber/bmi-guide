@@ -36,6 +36,7 @@ export default function App() {
           <a style={styles.navLink} href="#about">About</a>
           <a style={styles.navLink} href="#privacy">Privacy</a>
           <a style={styles.navLink} href="#affiliate">Affiliate</a>
+          <a style={styles.navLink} href="#contact">Contact</a>
           <a style={styles.navLink} href="#disclaimer">Disclaimer</a>
         </div>
       </div>
@@ -195,6 +196,18 @@ export default function App() {
         </p>
       </div>
 
+        <div id="contact" style={styles.infoCard}>
+         <h2>Contact</h2>
+         <p style={styles.text}>
+          If you have questions, feedback, or notice an error on this website,
+          you can contact the site owner by email.
+         </p>
+
+        <p style={styles.text}>
+          Email: <a href="mailto:ykur7937@googlemail.com">ykur7937@googlemail.com</a>
+        </p>
+      </div>
+      
       <div id="disclaimer" style={styles.infoCard}>
         <h2>Medical disclaimer</h2>
         <p style={styles.text}>
