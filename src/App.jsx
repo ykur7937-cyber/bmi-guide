@@ -33,6 +33,7 @@ export default function App() {
           <a style={styles.navLink} href="#calculator">Calculator</a>
           <a style={styles.navLink} href="#categories">Categories</a>
           <a style={styles.navLink} href="#about-bmi">About BMI</a>
+          <a style={styles.navLink} href="#privacy">Privacy</a>
           <a style={styles.navLink} href="#disclaimer">Disclaimer</a>
           <a style={styles.navLink} href="#about">About</a>
         </div>
@@ -157,6 +158,28 @@ export default function App() {
           calculate Body Mass Index and understand what BMI can and cannot tell
           them. The information is designed for general education only and
           should not replace advice from a qualified healthcare professional.
+        </p>
+      </div>
+             <div id="privacy" style={styles.infoCard}>
+        <h2>Privacy Policy</h2>
+        <p style={styles.text}>
+          This website is designed to provide a simple BMI calculator and
+          educational information. At this stage, the calculator runs in your
+          browser and does not require you to create an account or submit your
+          name, email address, or other personal information.
+        </p>
+
+        <p style={styles.text}>
+          If this website later uses analytics, advertising, or affiliate links,
+          third-party services may collect limited information such as browser
+          type, device information, pages visited, or approximate location. This
+          information may be used to understand site traffic, improve the
+          website, display advertisements, or measure affiliate referrals.
+        </p>
+
+        <p style={styles.text}>
+          This privacy policy may be updated as the website develops. Visitors
+          should review this section periodically for changes.
         </p>
       </div>
       <p style={styles.footer}>
