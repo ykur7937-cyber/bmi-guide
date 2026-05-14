@@ -33,6 +33,7 @@ export default function App() {
           <a style={styles.navLink} href="#calculator">Calculator</a>
           <a style={styles.navLink} href="#categories">Categories</a>
           <a style={styles.navLink} href="#about-bmi">About BMI</a>
+          <a style={styles.navLink} href="#faq">FAQ</a>
           <a style={styles.navLink} href="#about">About</a>
           <a style={styles.navLink} href="#privacy">Privacy</a>
           <a style={styles.navLink} href="#affiliate">Affiliate</a>
@@ -186,6 +187,38 @@ export default function App() {
           a diagnosis by itself. For personal health decisions, BMI should be
           considered together with other information and advice from a qualified
           healthcare professional.
+        </p>
+      </div>
+
+      <div id="faq" style={styles.infoCard}>
+        <h2>Frequently Asked Questions</h2>
+
+        <h3>Is BMI different for men and women?</h3>
+        <p style={styles.text}>
+          For adults aged 20 years and older, standard BMI categories are the
+          same for males and females. However, BMI does not directly measure
+          body composition, so it cannot show differences in muscle mass, body
+          fat percentage, or fat distribution.
+        </p>
+
+        <h3>Is BMI accurate for athletes?</h3>
+        <p style={styles.text}>
+          BMI may be less accurate for athletes or people with high muscle mass.
+          A muscular person may have a higher BMI even if their body fat level is
+          not high.
+        </p>
+
+        <h3>Can BMI diagnose health problems?</h3>
+        <p style={styles.text}>
+          No. BMI is a screening tool, not a diagnosis. Health status should be
+          assessed with other information and advice from a qualified healthcare
+          professional.
+        </p>
+
+        <h3>Should children use this calculator?</h3>
+        <p style={styles.text}>
+          This calculator is designed for adults. Children and teens aged 2–19
+          years should use age- and sex-specific BMI-for-age percentiles.
         </p>
       </div>
 
