@@ -34,6 +34,7 @@ export default function App() {
           <a style={styles.navLink} href="#categories">Categories</a>
           <a style={styles.navLink} href="#about-bmi">About BMI</a>
           <a style={styles.navLink} href="#disclaimer">Disclaimer</a>
+          <a style={styles.navLink} href="#about">About</a>
         </div>
       </div>
 
@@ -149,7 +150,15 @@ export default function App() {
           professional for personal medical advice.
         </p>
       </div>
-
+        <div id="about" style={styles.infoCard}>
+         <h2>About this site</h2>
+         <p style={styles.text}>
+          BMI Guide is a simple educational website created to help adults
+          calculate Body Mass Index and understand what BMI can and cannot tell
+          them. The information is designed for general education only and
+          should not replace advice from a qualified healthcare professional.
+        </p>
+      </div>
       <p style={styles.footer}>
         Educational information only. This website does not provide medical
         advice.
